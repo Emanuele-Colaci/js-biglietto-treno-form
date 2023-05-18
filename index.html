@@ -8,7 +8,57 @@
         <title>js-biglietto-treno-form</title>
     </head>
     <body>
-        
+        <div class="container">
+            <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div>
+                            <label>Nome Cognome</label>
+                            <input type="text" name="nome" id="nome" value="" placeholder="Nome">
+                        </div>
+                        <div>
+                            <label>Km da percorrere</label>
+                            <input type="text" name="km" id="km" value="" placeholder="Km">
+                        </div>
+                        <div>
+                            <label>Fascia d'età</label>
+                            <input type="text" name="età" id="anni" value="" placeholder="età">
+                        </div>
+                    </form>
+                    <div class="d-flex">
+                        <button id="click">Genera</button>
+                        <button><a href="index.html">Annulla</a></button>
+                    </div>
+                </div>
+                <h1>IL TUO BIGLIETTO</h1>
+                <div class="col">
+                    <h2>DETTAGLIO PASSEGGERI</h2>
+                    <div class="content">
+                        <div class="passeggero">
+                            <h3>NOME PASSEGGERO</h3>
+                            <p id="stampa"></p>
+                        </div>
+                        <div>
+                            <h5>Offerta</h5>
+                            <p id="offerta"></p>
+                        </div>
+                        <div>
+                            <h5>Carrozza</h5>
+                            <p>5</p>
+                        </div>
+                        <div>
+                            <h5>Codice CP</h5>
+                            <p>92911</p>
+                        </div>
+                        <div>
+                            <h5>Costo biglietto</h5>
+                            <p id="costo"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="./js/index.js"></script>
     </body>
