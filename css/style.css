@@ -94,3 +94,10 @@ a{
 h5{
     margin-bottom: 50px;
 }
+
+select{
+    border: 1.5px solid #b91450;
+    margin: 0 30px;
+    text-align: center; 
+    background-color: #fff;
+}
